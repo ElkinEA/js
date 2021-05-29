@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+
+    <!-- (урок 2, заданеи №5) -->
+
+    <script>
+        var a = + prompt ("Введите значение переменной а"), b = + prompt ("Введите значение переменной b");
+        function sum (){
+            return a + b;
+        }
+        function subtract (){
+            return a - b;
+        }
+        function multiply (){
+            return a * b;
+        }
+        function divide (){
+            return a / b;
+        }
+        
+        console.log ("Переменная а = " + a);
+        console.log ("Переменная b = " + b);
+
+        var c = sum(a,b);
+        console.log ( "Результат сложения = " + c);
+
+        var c = subtract(a,b);
+        console.log ( "Результат вычетания = " + c);
+
+        var c = multiply(a,b);
+        console.log ( "Результат умножения = " + c);
+
+        var c = divide(a,b);
+        console.log ( "Результат деления = " + c);
+    </script>
+</body>
+</html>

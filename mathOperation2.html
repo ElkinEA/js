@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <!-- (урок 2, заданеи №6)  НЕ ВЫПОЛНИЛ -->
+    <!-- не поял как правильно построить алгоритм в этом задании -->
+    <script>
+        var a = +prompt("Введите значение переменной а"),
+            b = +prompt("Введите значение переменной b");
+
+        function sum() {
+            return a + b;
+        }
+
+        function subtract() {
+            return a - b;
+        }
+
+        function multiply() {
+            return a * b;
+        }
+
+        function divide() {
+            return a / b;
+        }
+
+        function mathOperation(arg1, arg2, operation) {
+            arg1 = a;
+            arg2 = b;
+            var operation = prompt("Введите требуемую математическую операцию");
+            switch (operation) {
+                case "+":
+                    alert(sum);
+                    break;
+
+                default:
+                    alert("Операция не верна");
+            }
+
+        }
+    </script>
+</body>
+
+</html>
